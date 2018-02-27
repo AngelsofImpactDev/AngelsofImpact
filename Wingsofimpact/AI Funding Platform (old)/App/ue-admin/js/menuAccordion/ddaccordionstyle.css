@@ -1,0 +1,67 @@
+.glossymenu{
+margin: 20px 0;
+padding: 0;
+border-bottom-width: 0;
+border-bottom: 1px solid #2f3c48;
+margin-bottom: 20px;
+}
+
+.glossymenu a.menuitem {
+background-color: #33414e;
+text-transform: uppercase;
+font-weight: bold;
+font-size: 12px;
+color: white;
+display: block;
+position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+width: auto;
+padding: 15px;
+padding-left: 20px;
+text-decoration: none;
+border-top: 1px solid #2f3c48;
+}
+
+
+.glossymenu a.menuitem:visited, .glossymenu .menuitem:active{
+color: white;
+}
+
+.glossymenu a.menuitem .statusicon{ /*CSS for icon image that gets dynamically added to headers*/
+position: relative;
+float: right;
+top: 7px;
+right: 5px;
+border: none;
+}
+
+.glossymenu a.menuitem:hover{
+background-color: #3d4e5d;
+}
+
+.glossymenu div.submenu{ /*DIV that contains each sub menu*/
+background: #273541;
+}
+
+.glossymenu div.submenu ul{ /*UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.glossymenu div.submenu ul li{
+border-bottom: 1px solid #23303b;
+}
+
+.glossymenu div.submenu ul li a{
+display: block;
+color: #fff;
+text-decoration: none;
+padding: 15px 0;
+padding-left: 20px;
+border-left: 5px solid #80735d;
+}
+
+.glossymenu div.submenu ul li a:hover{
+background: #23303b;
+border-left: 5px solid orange;
+}

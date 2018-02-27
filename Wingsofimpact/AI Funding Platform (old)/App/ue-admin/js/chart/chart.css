@@ -1,0 +1,11 @@
+#chartLegend {
+	padding-left: 10px;
+}
+.chartLegendSwatch {
+	 border: 1px solid #3f3f3f;
+	 height: 10px;
+	 width: 10px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
